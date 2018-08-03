@@ -490,6 +490,10 @@
             function goInactive() {
 
                 window.top.location.href = "../swimmingpoolgrotto.html";
+				//reset opacity of parent page
+                parentWin = window.parent;
+                var sidebar = parentWin.document.getElementById('split-container');
+                sidebar.style.opacity = "1";
             }
 
             function goActive() {
@@ -708,7 +712,7 @@
                 //Applying opacity to parent page
                 parentWin = window.parent;
                 var sidebar = parentWin.document.getElementById('split-container');
-                sidebar.style.opacity = "0.4";
+                sidebar.style.opacity = "0.8";
 
                 span.onclick = function () {
                     popup.style.display = "none";
