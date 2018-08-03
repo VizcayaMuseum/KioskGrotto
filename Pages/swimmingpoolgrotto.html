@@ -161,7 +161,7 @@
             viewer.setEDLEnabled(false);
             viewer.setFOV(60);
 
-            viewer.setPointBudget(1 * 100 * 1000);
+            viewer.setPointBudget(5 * 1000 * 1000);
             document.title = "";
             viewer.setEDLEnabled(false);
             viewer.setBackground("gradient"); // ["skybox", "gradient", "black", "white"];
@@ -178,7 +178,7 @@
             let sceneSG = new Potree.Scene();
             viewer.setScene(sceneSG);
 
-            Potree.loadPointCloud("https://s3.amazonaws.com/vizcaya/pointclouds/grotto/cloud.js", "swimmingpoolgrotto", function (e) {
+            Potree.loadPointCloud("http://localhost/vizcaya/pointclouds/grotto/cloud.js", "swimmingpoolgrotto", function (e) {
 
                 sceneSG.addPointCloud(e.pointcloud);
                 sceneSG.view.position.set(-17.926, 20.359, 1.667);
