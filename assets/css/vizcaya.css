@@ -1222,7 +1222,7 @@ a {
     height: auto;
     width: auto;
     position: absolute;
-	top: 55%;
+	top: 54%;
 	right: 35%;
     z-index: 100;
 	animation: mapAnimation 1s ease-in-out infinite alternate;
@@ -1236,7 +1236,7 @@ a {
     height: auto;
     width: auto;
     position: absolute;
-	top: 57%;
+	top: 58%;
 	left: 18%;
     z-index: 100;
 }
