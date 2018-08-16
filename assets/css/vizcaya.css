@@ -1384,16 +1384,7 @@ a {
     width: 38px;
     position: absolute;
     z-index: 4;
-    top: 49%;
-	left: 12.7%;
-}
-
-#grotto_marker_a {
-    height: 35px;
-    width: 35px;
-    position: absolute;
-    z-index: 4;
-    top: 49%;
+    top: 47%;
 	left: 12.7%;
 }
 
@@ -1402,7 +1393,7 @@ a {
     width: 35px;
     position: absolute;
     z-index: 4;
-	top: 49%;
+	top: 47%;
 	left: 12.7%;
 	animation: mapAnimation 1s ease-in-out infinite alternate;
     -webkit-animation-name: mapAnimation;
@@ -1412,15 +1403,6 @@ a {
 #barge_marker_div {
     height: 38px;
     width: 38px;
-    position: absolute;
-    z-index: 4;
-    top: 14%;
-	left: 21%;
-}
-
-#barge_marker_a {
-    height: 35px;
-    width: 35px;
     position: absolute;
     z-index: 4;
     top: 14%;
