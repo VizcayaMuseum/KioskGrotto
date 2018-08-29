@@ -340,7 +340,7 @@
                     }
 
                     {
-                        /* Annotation: Reptiles
+                        /* Annotation: Alligators
                         *****************************************************/
                         let elTitle = $(`<span>
                                                     <img src="${Potree.resourcePath}/icons/eye-solid.svg"
@@ -351,7 +351,7 @@
                         elTitle.find("img[name=action_set_scene]").click((event) => {
 							changeHotspotName("Lagartos");
 						});
-                        elTitle.toString = () => "FLOOR";
+                        elTitle.toString = () => "Alligators";
 
                         let aAbout6 = new Potree.Annotation({
                             position: [-32.919, -0.397, -0.508],
@@ -372,8 +372,12 @@
                                                         class="annotation-action-icon"
                                                         style="filter: invert(1);" />
                                                 </span>`);
-                        elTitle.find("img[name=action_set_scene]").click((event) => { });
-                        elTitle.toString = () => "Pulpos";
+                        elTitle.find("img[name=action_set_scene]").click((event) => { 
+                            changeHotspotName("Pulpos");
+                        });
+                            
+                        
+                        elTitle.toString = () => "Octopuses";
 
                         let aAbout7 = new Potree.Annotation({
                             position: [-33.905, 5.502, -0.552],
