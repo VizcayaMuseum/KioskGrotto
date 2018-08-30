@@ -201,7 +201,9 @@
                                                         class="annotation-action-icon"
                                                         style="filter: invert(1);" />
                                                 </span>`);
-                        elTitle.find("img[name=action_set_scene]").click((event) => { });
+                        elTitle.find("img[name=action_set_scene]").click((event) => {
+                            changeHotspotName("La Gruta de la Piscina");
+                         });
                         elTitle.toString = () => "AMORINO";
 
                         let aAbout0 = new Potree.Annotation({

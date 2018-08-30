@@ -200,7 +200,9 @@
                                                 class="annotation-action-icon"
                                                 style="filter: invert(1);" />
                                         </span>`);
-                        elTitle.find("img[name=action_set_scene]").click((event) => { });
+                        elTitle.find("img[name=action_set_scene]").click((event) => {
+                            changeHotspotName("Swimming Pool Grotto");
+                        });
                         elTitle.toString = () => "Swimming Pool Grotto";
 
                         let aAbout0 = new Potree.Annotation({
